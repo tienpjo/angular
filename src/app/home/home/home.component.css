@@ -86,11 +86,21 @@ img {
   border-radius: 12px;
 }
 .text-quote {
-  grid-column-start: 2;
-  grid-column-end: -1;
-  align-items: center;
+  grid-column: 2 / -1;
+  align-self: center;
 }
 .text-quote h2 {
   font-size: 23px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.quote {
+  font-size: 17px;
+  font-style: italic;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
   margin-bottom: 24px;
+}
+.author {
+  color: #c3fae8;
 }
